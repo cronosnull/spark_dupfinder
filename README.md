@@ -3,6 +3,7 @@ A spark process to find duplicate files. It is designed to scale, it requires a 
 To use it in cluster mode the files and the environment need to be in a shared location (mounted in the same path in all nodes). 
 
 # Local mode install
+*Note*, in local mode it will be slower than other native solutions (this script have been desinged to scale into multiple nodes). You should consider tools like [fslint](http://www.pixelbeat.org/fslint/) or [fdupes](https://github.com/adrianlopezroche/fdupes) in this case.
 
   - Create the environment
 
